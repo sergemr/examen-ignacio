@@ -1,0 +1,56 @@
+.example-container mat-form-field+mat-form-field {
+    margin-left: 8px;
+}
+
+.centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 58vh;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.example-disabled {
+  display: inline-block;
+}
+
+/* Estilo para centrar y agregar un borde al formulario */
+.centrar-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Otra opción: ajusta la altura según tus necesidades */
+  }
+  
+  .form-borde {
+    border: 2px solid #000; /* Borde negro */
+    background-color: rgb(196, 192, 192);
+    padding: 20px;
+    max-width: 500px; /* Otra opción: ajusta el ancho según tus necesidades */
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+  }
+  
+  h1 {
+    font-size:40px
+  }
+
+  .titulo {
+    margin: 20px;
+  }
